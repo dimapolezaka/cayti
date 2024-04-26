@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero-block {
+    background: rgb(44, 44, 44);
+}
+.header{
+    background: rgb(86, 96, 96);
+}
+.logo{
+    width: 55px;
+}
+.nav__list{
+    display: flex ;
+    list-style: none;
+}
+.container__header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item{
+    margin-left: 70px;
+    color: rgba(0, 247, 247, 0.568);
+}
+.container__hero-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0 90px;
+}
+.hero-block__content{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-block__title{
+    color: rgb(255, 214, 0);
+font-family: Ruslan Display;
+font-size: 64px;
+font-weight: 400;
+line-height: 69px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero-block__text{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 400;
+line-height: 116px;
+letter-spacing: 0px;
+text-align: center;
+}
+.hero-block__btn{
+    border-radius: 6px;
+    background-color: brown;
+    padding: 7px;
+    
+}
+.hero-block__img{
+    margin-right: 40px;
+}
+.about {
+    background-color: aquamarine;
+}
+.rating__full {
+ height: 20px;
+ background-color: blue;
+ width: 400px;
+}
+.rating__done {
+ height: 100%;
+ background-color: chartreuse;
+ width: 30%;
+
+}
+.about__content{
+    display: flex;
+     justify-content: space-around;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.about__img{
+    width: 80%;
+}
+.about__progressbar {
+    margin-right: 50px ;
+}
+
+.about__title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 96px;
+font-weight: 400;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.about__list{
+    list-style: none;
+}
+.video__video{
+    width: 1000px;
+    height: 561px;
+    border: 50px solid darkgrey;
+    border-radius: 54px;
+}
+.video{
+    background-color: aquamarine;
+    
+
+}
+.container__video{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.video__title{
+    color: rgba(0, 0, 0, 0.493);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.about__text{
+    margin-bottom: 20px;
+}
+.about__itam{
+    margin-bottom: 20px;
+}
+.gallery {
+    background-color: aquamarine;
+}
+.gallery__title{
+text-align: center;
+padding-bottom: 20px;
+}
+.gallery__itam{
+    list-style: none;
+    width: 48%;
+    margin: 10px;
+}
+.gallery__img{
+    width: 100%;
+}
+.gallery__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+}
+.container__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: aqua;
+}
+.footer__img{
+    margin-right: 30px;
+    max-width: 50px;
+}
+.discription{
+    background-color: darkgray;
+}
+.container__discription{
+    display: flex;
+    justify-content: center;
+}
+.img__section{
+    margin-right: 40px;
+    height: 700px;
+}
